@@ -5,7 +5,8 @@ let page = 1;
 function fetchBlogs(page) {
     const url = 'https://api.medium.com/v1/users/wildlifeconservationsociety/posts?limit=${numBlogsPerPage}&page=${page}';
     const headers = {
-        'Authorization': 'Bearer ${accessToken}'
+        'Authorization': 'Bearer ${accessToken}',
+        'Access-Control-Allow-Origin': 'https://eran03.github.io/'
 };
 
 fetch(url, { headers })
