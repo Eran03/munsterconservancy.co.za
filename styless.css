@@ -1,0 +1,446 @@
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .55);
+}
+
+.navbar {
+  z-index: 42;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color: black;
+  min-width: 380px;
+  background-color: #7e7e7e !important;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+h1 {
+  color: white;
+  text-shadow: 0 0 4px black;
+  font-size: 4rem;
+  font-weight: bolder;
+  /* padding: 2% 10% 2% 10%; */
+  line-height: 1;
+}
+
+h1 a {
+  color: white;
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  line-height: 33px;
+}
+
+.things-to-do a {
+  color: white !important;
+  text-decoration: none;
+}
+
+h1 a:hover, .things-to-do a:hover {
+  color: #419645 !important;
+}
+
+.hiddenLink {
+  font-size: 0.9em;
+}
+
+.membersPage-body h1 {
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.members {
+  color: white;
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 10%;
+  width: 80% !important;
+  letter-spacing: 2px;
+  left: 10%;
+  z-index: 6;
+}
+
+.text h1 {
+  color: white;
+  text-shadow: 0 0 4px black;
+  font-size: 5rem;
+  font-weight: bolder;
+  padding: 2% 10% 2% 10%;
+  line-height: 0.9;
+}
+
+span {
+  font-size: 2.5rem;
+}
+
+.body-paragraph p {
+  color: white;
+  font-size: 1.1rem;
+  position: relative;
+  bottom: 20%;
+  width: 100%;
+  letter-spacing: 2px;
+  padding: 0 10%;
+  min-width: 320px;
+}
+
+.homepage-body {
+  height: 100vh;
+}
+
+.homepage-body .body-paragraph {
+  text-align: center;
+}
+
+.navbar {
+  background: #00000066;
+  padding: 0% 5%;
+  height: auto;
+}
+
+.nav-link {
+  padding: 2%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  zoom: 3;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo img {
+  width: 80%;
+  max-width: 486px;
+  margin-bottom: 35px;
+}
+
+.bg-fader {
+  background: linear-gradient(to top,
+      rgb(0, 0, 0, 1),
+      rgb(255, 255, 255, 0));
+  height: 80vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.body-paragraph {
+  padding-bottom: 3%;
+  align-self: baseline;
+}
+
+.bg-cover::before {
+  content: "";
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  z-index: -420;
+}
+
+.homepage-body::before {
+  background-image: url("./images/munster-conservancy-welcome-background.jpg");
+  background-position-y: -888px;
+}
+
+.munsterPage-body::before {
+  background-image: url("./images/munster6.jpg");
+}
+
+.aboutPage-body::before {
+  background-image: url("./images/munster3.jpg");
+}
+
+.conservationPage-body::before {
+  background-image: url("./images/munster7.jpg");
+}
+
+.membersPage-body::before {
+  background-image: url("./images/munsterBackgroundMembers.jpeg");
+}
+
+.contactPage-body::before {
+  background-image: url("./images/munsterContact.jpg");
+}
+
+.treesPage-body::before {
+  background-image: url("./images/munsterTreesPage.jpg");
+}
+
+.barringtonia_racemosa-body::before {
+  background-image: url("./images/trees/Barringtonia_racemosa_wiki.jpg");
+}
+
+.ficus_trichopoda-body::before {
+  background-image: url("./images/trees/Ficus_trichopoda_iN.jpeg");
+}
+
+.lydenburgia_abbottii-body::before {
+  background-image: url("./images/trees/Lydenburgia_abbottii_iN.jpg");
+}
+
+.mimusops_caffra-body::before {
+  background-image: url("./images/trees/Mimusops_caffra_wiki.jpeg");
+}
+
+.ocotea_bullata-body::before {
+  background-image: url("./images/trees/Ocotea_bullata_wiki.jpg");
+}
+
+.pittosporum_viridiflorum-body::before {
+  background-image: url("./images/trees/Pittosporum_viridiflorum_iN.jpg");
+}
+
+.podocarpus_falcatus-body::before {
+  background-image: url("./images/trees/Podocarpus_falcatus_wiki.jpg");
+}
+
+.podocarpus_latifolius-body::before {
+  background-image: url("./images/trees/Podocarpus_latifolius_wiki.jpg");
+}
+
+.sideroxylon_inerme-body::before {
+  background-image: url("./images/trees/Sideroxylon_inerme_wiki.jpg");
+}
+
+.tephrosia_pondoensis-body::before {
+  background-image: url("./images/trees/Tephrosia_pondoensis_iN.jpg");
+}
+
+.tree_table {
+  height: 500px;
+  overflow: auto;
+  margin-bottom: 45px;
+}
+
+.tree_table tbody tr td {
+  background-color: black;
+  opacity: 70%;
+  color: white;
+}
+
+.tree_table a {
+  font-weight: bold;
+  color: #3AB0FF;
+}
+
+.tree_info {
+  margin-top: 2rem;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.tree_title {
+  text-align: center;
+}
+
+.tree_bot_name {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.tree_com_name {
+  font-size: 3rem;
+}
+
+.tree_num {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.tree_des {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+}
+
+.tree_des_text {
+  font-size: 1.1rem;
+}
+
+.tree_des_source {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.tree_btn {
+  margin-top: 1rem;
+  margin-bottom: 600px;
+}
+
+.tree_detailed_images {
+  margin-bottom: 20px;
+}
+
+.tree_detailed_images img {
+  padding: 10px;
+}
+
+.main {
+  height: 100vh;
+}
+
+.things-to-do {
+  position: absolute;
+  width: 80% !important;
+  bottom: 42px;
+  color: white;
+  font-size: 1.5rem;
+  z-index: 7;
+  margin: 8% 10% !important;
+}
+
+.text-paragraph {
+  color: white;
+  padding: 3% 10%;
+}
+
+.projects {
+  color: white;
+  z-index: 10;
+  padding: 2% 10%;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+#protectButton {
+  z-index: -420;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: fixed !important;
+}
+
+.carousel-item {
+  position: fixed !important;
+  top: -50%;
+  left: -50%;
+  width: 200% !important;
+  height: 200%;
+}
+
+.carousel-item img {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
+@media only screen and (max-width: 990px) {
+
+  .homepage-body::before {
+    background-position-y: 0;
+  }
+
+  .membersPage-body h1 {
+    font-size: 3rem;
+  }
+
+  .body-paragraph p {
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+  }
+
+  .logo {
+    position: relative;
+  }
+
+  .text h1 {
+    zoom: 0.75;
+  }
+
+  h1 a {
+    font-size: 1.22rem;
+    margin-top: 2%;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 2.2rem;
+  }
+
+  .things-to-do {
+    position: relative;
+  }
+
+  .col {
+    flex: 1 0 0%;
+    margin-bottom: 70px;
+  }
+
+  .carousel-item {
+    top: 24%;
+    left: -38% !important;
+    width: 172% !important;
+    height: 60%;
+  }
+
+  .tree_info {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .tree_bot_name {
+    font-size: 2rem;
+  }
+
+  .tree_com_name {
+    font-size: 1.5rem;
+  }
+
+  .tree_num {
+    font-size: 1rem;
+  }
+
+
+
+  .tree_des_text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .carousel-item {
+    top: 18%;
+    left: -1%;
+    width: 102% !important;
+    height: 98%;
+  }
+}
