@@ -186,6 +186,10 @@ span {
   background-image: url("./images/munsterContact.jpg");
 }
 
+.blogPage-body::before {
+  background-image: url("./images/gallery18_crop.jpeg")
+}
+
 .treesPage-body::before {
   background-image: url("./images/munsterTreesPage.jpg");
 }
@@ -303,6 +307,32 @@ span {
   height: 100vh;
 }
 
+.blogPage-body::before {
+  background-color: white;
+}
+
+#blog-heading {
+  margin-top: 56px;
+}
+
+#blog-descr {
+  padding: 0 10% 0 10%;
+  color: white;
+}
+
+#blog-feed {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 80%;
+  margin: auto;
+  color: white;
+  padding: 20px;
+  overflow-wrap: break-word;
+}
+
+#blog-feed img {
+  width: 100%;
+}
+
 .things-to-do {
   position: absolute;
   width: 80% !important;
@@ -367,6 +397,14 @@ li {
 
   .membersPage-body h1 {
     font-size: 3rem;
+  }
+
+  .blogPage-body nav{
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  #blog-feed {
+    width: 95%;
   }
 
   .body-paragraph p {
