@@ -16,15 +16,7 @@ fetch(url, { headers })
         const paginationDiv = document.getElementById('pagination');
 
         data.data.forEach(blog => {
-            document.getElementById("blogs").innerHTML = document.getElementById("blogs").innerHTML + "<div id='item-" + key + "' </div>";
-
-            document.getElementById("item-" + key).innerHTML =
-                "<h2 class='title'>" + item.title + "</h2>" +
-                "<h5 class='pub-date'>" + item.pubDate + "</h5>" +
-                "<br>" +
-                "<p class='content'>" + item.content + "</p>" +
-                "<p class='link'><a href='" + item.link + "' target='_blank'>" + item.link + "</a></p>" +
-                "<br><hr><br>";
+            console.log(blog);
         });
 
         // Create pagination buttons (Next, Previous) and attach event listeners
