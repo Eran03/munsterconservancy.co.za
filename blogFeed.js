@@ -9,6 +9,7 @@ xhttp.send();
 function buildFeed(feed) {
 
     items = feed.items;
+    console.log(items);
 
     for (key in items) {
 
