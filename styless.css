@@ -311,8 +311,8 @@ span {
   background-color: white;
 }
 
-#blog-heading {
-  margin-top: 56px;
+.blogPage-body {
+  padding-top: 56px;
 }
 
 #blog-descr {
@@ -320,7 +320,7 @@ span {
   color: white;
 }
 
-#blog-feed {
+#blog-feed, #blog-item {
   background-color: rgba(0, 0, 0, 0.6);
   width: 80%;
   margin: auto;
@@ -329,8 +329,23 @@ span {
   overflow-wrap: break-word;
 }
 
-#blog-feed img {
+#blog-feed .item {
+  padding-top: 60px;
+}
+
+#blog-feed a {
+  text-decoration: none;
+  color: white;
+}
+
+#blog-feed .thumbnail {
   width: 100%;
+}
+
+#blog-return {
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 50px;
 }
 
 .things-to-do {
