@@ -342,10 +342,24 @@ span {
   width: 100%;
 }
 
+#blog-feed img, #blog-item img {
+  width: 100%;
+}
+
 #blog-return {
   text-align: center;
   font-size: 1rem;
   padding-bottom: 50px;
+}
+
+#medium-link {
+  text-align: center;
+  margin: 40px;
+}
+
+#medium-link a {
+  text-decoration: none;
+  color: white;
 }
 
 .things-to-do {
@@ -482,11 +496,12 @@ li {
     font-size: 1rem;
   }
 
-
-
   .tree_des_text {
     font-size: 1rem;
   }
+
+  #blog-feed, #blog-item {
+    width: 100%;
 }
 
 @media only screen and (min-width: 1400px) {
