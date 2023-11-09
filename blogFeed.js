@@ -3,7 +3,7 @@ xhttp.onload = function () {
     buildFeed(JSON.parse(xhttp.responseText));
 };
 
-xhttp.open("GET", "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@wildlifeconservationsociety&api_key=i0w6bucsgxu3jc7nchdjoash1htquwx1slocid7r&count=20");
+xhttp.open("GET", "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@munsterconservancy&api_key=i0w6bucsgxu3jc7nchdjoash1htquwx1slocid7r&count=20");
 xhttp.send();
 
 function buildFeed(feed) {
